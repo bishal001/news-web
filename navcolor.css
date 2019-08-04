@@ -1,15 +1,112 @@
 .navbar{
-	background-color:darkgreen !important;
+	background-color:#1a421a !important;
+	margin-top:15px;
+	margin-bottom:15px;
+	padding:10px;
 }
 
 .nav-link{
 	color:white !important;
+	font-size:19;
+}
+
+.link{
+	
+	font-size:20;
 }
 
 a:hover{
-	color:black !important;
+	color:#186969 !important;
 }
 
-.nav-link:active{
-	color:red !important;
+a{
+	color:#7b2424;
+}
+
+.nav-link.active{
+	color:yellow !important;
+}
+
+.heading{
+	display:block;
+	text-align:center;
+	margin-top:24px;
+	margin-bottom:15px;
+}
+
+h2{
+	font-size:58px;
+	font-weight:400;
+}
+
+p{
+	font-size:16;
+	font-family:Helvetica;
+	text-align: justify;
+}
+
+.card{
+	background-color:#1a421a;
+	font-size:19;
+}
+
+.badge{
+	background-color:#1a421a;
+}
+
+.header{
+	color:white !important;
+}
+
+.more{
+	float:right;
+	color:white !important;
+}
+
+.writter{
+	text-align:center;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+/*responsive text*/
+@media (max-width: 1200px) {
+  legend {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  h1,
+  .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  h2,
+  .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  h3,
+  .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+  }
+  h4,
+  .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .display-1 {
+    font-size: calc(1.725rem + 5.7vw);
+  }
+  .display-2 {
+    font-size: calc(1.675rem + 5.1vw);
+  }
+  .display-3 {
+    font-size: calc(1.575rem + 3.9vw);
+  }
+  .display-4 {
+    font-size: calc(1.475rem + 2.7vw);
+  }
+  .close {
+    font-size: calc(1.275rem + 0.3vw);
+  }
 }
