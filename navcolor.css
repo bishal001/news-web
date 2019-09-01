@@ -1,5 +1,5 @@
 .navbar{
-	background-color:#1a421a !important;
+	background-color:#0db04b !important;
 	margin-top:15px;
 	margin-bottom:15px;
 	padding:10px;
@@ -27,26 +27,9 @@ a{
 	color:yellow !important;
 }
 
-.heading{
-	display:block;
-	text-align:center;
-	margin-top:24px;
-	margin-bottom:15px;
-}
-
-h2{
-	font-size:58px;
-	font-weight:400;
-}
-
-p{
-	font-size:16;
-	font-family:Helvetica;
-	text-align: justify;
-}
 
 .card{
-	background-color:#1a421a;
+	background-color:#1a8a64;
 	font-size:19;
 }
 
@@ -63,9 +46,6 @@ p{
 	color:white !important;
 }
 
-.writter{
-	text-align:center;
-}
 
 .carousel-caption {
     position: relative;
